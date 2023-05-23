@@ -1,0 +1,2 @@
+SHA256(Localdost.ovf)= 009607f0db506843a71d28b9a81cd6481f90ec82cba717d0e863b3358c5aca2a
+SHA256(Localdost-disk1.vmdk)= 76f7d3e43c73018ab09776e53a7cbcad1c3eebd1aa83b6314ca1fb6c45af8dbc

@@ -1,0 +1,14 @@
+obj-m += packet_filter.o
+
+all:
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+
+clean:
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+
+	
+load:
+	sudo insmod packet_filter.ko
+	
+unload:
+	sudo rmmod packet_filter.ko
